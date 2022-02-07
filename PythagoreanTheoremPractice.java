@@ -1,8 +1,8 @@
 import java.util.Scanner;
-// here is only could put numbers. not Strings. I need numeric keypad.
+// here is only could put numbers, not Strings. I need numeric keypad.
 class PythagoreanTheoremPractice {
 	public static void main(String args[]) {
-		//피타고라스 정리
+		
 		Scanner in = new Scanner(System.in);
 		// should use String, I need null value.
 		System.out.println("put values you know. put 00(double zero) to the value you wanna know.");
@@ -12,10 +12,13 @@ class PythagoreanTheoremPractice {
 		float b = in.nextFloat();
 		System.out.printf("Long Side = ", "\n");
 		float c = in.nextFloat();
+		System.out.printf("\n");
+		
 		// double 보다 float을 많이 씀.
 		System.out.println("a= " + a);
 		System.out.println("b= " + b);
 		System.out.println("c= " + c);
+		System.out.printf("\n");
 		
 		if (a == 00) {
 			double B = b;
